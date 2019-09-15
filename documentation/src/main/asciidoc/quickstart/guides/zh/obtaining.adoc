@@ -17,23 +17,20 @@ hibernate-proxool:: 整合 http://proxool.sourceforge.net/[Proxool] 连接池库
 hibernate-jcache:: 整合 https://jcp.org/en/jsr/detail?id=107$$[JCache] 缓存特性到 Hibernate，使任何与其兼容的缓存实现能够成为 Hibernate 二级缓存的提供者
 hibernate-ehcache:: 整合 http://ehcache.org/[Ehcache] 缓存库到 Hibernate 中成为 Hibernate 的二级缓存提供者
 
-=== Release Bundle Downloads
+=== 发行组件下载
 
-The Hibernate team provides release bundles hosted on the SourceForge File Release System, in both
-`TGZ` and `ZIP` formats.  Each release bundle contains `JAR` files, documentation, source code, and other goodness.
+Hibernate 项目小组提供了一系列发布组合（bundles），这些发布组合发布在 SourceForge 文件发布系统中。这些发布的包有
+`TGZ` 和 `ZIP` 格式。每一个发布组合包含有 `JAR` 文件，文档，源代码和其他一些有用的内容。
 
-You can download releases of Hibernate, in your chosen format, from the list at
-https://sourceforge.net/projects/hibernate/files/hibernate-orm/.  The release bundle is structured as follows:
+你可以选择你需要的格式来下载 Hibernate 的发布版本，有关发布版本的列表，请参考
+https://sourceforge.net/projects/hibernate/files/hibernate-orm/.  发布版本的结构请参考下面的内容：
 
-* The `lib/required/` directory contains the `hibernate-core` jar and all of its dependencies.  All of these jars are
-required to be available on your classpath no matter which features of Hibernate are being used.
-* The `lib/envers` directory contains the `hibernate-envers` jar and all of its dependencies (beyond those in
-`lib/required/` and `lib/jpa/`).
-* The `lib/spatial/` directory contains the `hibernate-spatial` jar and all of its dependencies (beyond those in `lib/required/`)
-* The `lib/osgi/` directory contains the `hibernate-osgi` jar and all of its dependencies (beyond those in `lib/required/` and `lib/jpa/`)
-* The `lib/jpa-metamodel-generator/` directory contains the jar needed for generating the Criteria API type-safe Metamodel.
-* The `lib/optional/` directory contains the jars needed for the various connection pooling and second-level cache integrations
-provided by Hibernate, along with their dependencies.
+*  `lib/required/` 目录包含有 `hibernate-core` Jar 和所有需要的依赖。不管你需要使用 Hibernate 的何种功能，所有的这些都需要设置到你的  classpath 路径中
+*  `lib/envers` 目录包含有 `hibernate-envers` Jar 和需要的依赖（这些依赖，不包含在 `lib/required/` 和 `lib/jpa/` 中）
+*  `lib/spatial/` 目录包含有 `hibernate-spatial` Jar和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
+*  `lib/osgi/` 目录包含有 `hibernate-osgi`  Jar和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
+*  `lib/jpa-metamodel-generator/` 目录包含了创建 Criteria API type-safe 元模型（Metamodel）所需要的 Jar
+*  `lib/optional/` 包含了各个连接池和 Hibernate 提供的二级缓存所需要的 Jar，已经它们所需要的依赖
 
 === Maven Repository Artifacts
 
