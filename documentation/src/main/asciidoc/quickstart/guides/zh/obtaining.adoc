@@ -32,17 +32,15 @@ https://sourceforge.net/projects/hibernate/files/hibernate-orm/.  发布版本�
 *  `lib/jpa-metamodel-generator/` 目录包含了创建 Criteria API type-safe 元模型（Metamodel）所需要的 Jar
 *  `lib/optional/` 包含了各个连接池和 Hibernate 提供的二级缓存所需要的 Jar，已经它们所需要的依赖
 
-=== Maven Repository Artifacts
+=== Maven 仓库的 Artifacts
 
-The authoritative repository for Hibernate artifacts is the JBoss Maven repository.  The Hibernate artifacts are
-synced to Maven Central as part of an automated job (some small delay may occur).
+Hibernate artifacts 官方发布的仓库在 JBoss Maven repository 中。Hibernate 发布的 artifacts 也会同时同步到 Maven Central 仓库中，
+这是一个自动同步进程（可能会有一些延迟）。
 
-The team responsible for the JBoss Maven repository maintains a number of Wiki pages that contain important information:
+Hibernate 项目小组负责维护 JBoss 的 Maven 仓库，同时还有一些 WIKI 的页面，这些 Wiki 页面中包含了与 Hibernate 仓库有关的重要信息：
 
-* http://community.jboss.org/docs/DOC-14900 - General information about the repository.
-* http://community.jboss.org/docs/DOC-15170 - Information about setting up the JBoss repositories in order to do
-development work on JBoss projects themselves.
-* http://community.jboss.org/docs/DOC-15169 - Information about setting up access to the repository to use JBoss
-projects as part of your own software.
+* http://community.jboss.org/docs/DOC-14900 - 有关仓库的基本信息。
+* http://community.jboss.org/docs/DOC-15170 - 有关设置 JBoss 仓库，以便于在 JBoss 项目中进行开发工作。
+* http://community.jboss.org/docs/DOC-15169 - 设置访问仓库来将 JBoss 项目为你软件的一部分。
 
-The Hibernate ORM artifacts are published under the `org.hibernate` groupId.
+Hibernate ORM artifacts 是发布在 org.hibernate groupId 下的。
