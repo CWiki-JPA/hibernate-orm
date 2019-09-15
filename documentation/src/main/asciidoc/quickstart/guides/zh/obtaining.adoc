@@ -27,8 +27,8 @@ https://sourceforge.net/projects/hibernate/files/hibernate-orm/.  发布版本�
 
 *  `lib/required/` 目录包含有 `hibernate-core` Jar 和所有需要的依赖。不管你需要使用 Hibernate 的何种功能，所有的这些都需要设置到你的  classpath 路径中
 *  `lib/envers` 目录包含有 `hibernate-envers` Jar 和需要的依赖（这些依赖，不包含在 `lib/required/` 和 `lib/jpa/` 中）
-*  `lib/spatial/` 目录包含有 `hibernate-spatial` Jar和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
-*  `lib/osgi/` 目录包含有 `hibernate-osgi`  Jar和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
+*  `lib/spatial/` 目录包含有 `hibernate-spatial` Jar 和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
+*  `lib/osgi/` 目录包含有 `hibernate-osgi`  Jar 和需要的依赖（这些依赖，不包含在 lib/required/ 和lib/jpa/ 中）
 *  `lib/jpa-metamodel-generator/` 目录包含了创建 Criteria API type-safe 元模型（Metamodel）所需要的 Jar
 *  `lib/optional/` 包含了各个连接池和 Hibernate 提供的二级缓存所需要的 Jar，已经它们所需要的依赖
 
