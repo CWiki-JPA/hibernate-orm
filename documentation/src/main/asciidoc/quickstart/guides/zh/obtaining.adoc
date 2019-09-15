@@ -1,22 +1,21 @@
 [[obtaining]]
-== Obtaining Hibernate
+== 获得 Hibernate
 
-=== The Hibernate Modules/Artifacts
+=== THibernate 的模块/包（modules/artifacts）
 
-Hibernate's functionality is split into a number of modules/artifacts meant to isolate dependencies (modularity).
+Hibernate 的功能被拆分成一系列的模块/包（modules/artifacts），其目的是为了对依赖进行独立（模块化）。
 
-hibernate-core:: The main (core) Hibernate module.  Defines its ORM features and APIs as well as the various integration SPIs.
-hibernate-envers:: Hibernate's historical entity versioning feature
-hibernate-spatial:: Hibernate's Spatial/GIS data-type support
-hibernate-osgi:: Hibernate support for running in OSGi containers.
-hibernate-agroal:: Integrates the http://agroal.github.io/[Agroal] connection pooling library into Hibernate
-hibernate-c3p0:: Integrates the http://www.mchange.com/projects/c3p0/[C3P0] connection pooling library into Hibernate
-hibernate-hikaricp:: Integrates the http://brettwooldridge.github.io/HikariCP/[HikariCP] connection pooling library into Hibernate
-hibernate-vibur:: Integrates the http://www.vibur.org/[Vibur DBCP] connection pooling library into Hibernate
-hibernate-proxool:: Integrates the http://proxool.sourceforge.net/[Proxool] connection pooling library into Hibernate
-hibernate-jcache:: Integrates the https://jcp.org/en/jsr/detail?id=107$$[JCache] caching specification into Hibernate,
-enabling any compliant implementation to become a second-level cache provider.
-hibernate-ehcache:: Integrates the http://ehcache.org/[Ehcache] caching library into Hibernate as a second-level cache provider.
+hibernate-core:: 这个是 Hibernate 的主要（main (core)）模块。定义了 ORM 的特性和 API 以及一系列整合的 SPIs。
+hibernate-envers:: Hibernate 历史的实体版本特性
+hibernate-spatial:: Hibernate 的 Spatial/GIS 数据类型支持
+hibernate-osgi:: Hibernate 支持运行 OSGi 容器
+hibernate-agroal:: 整合 http://agroal.github.io/[Agroal] 连接池库到 Hibernate
+hibernate-c3p0:: 整合 http://www.mchange.com/projects/c3p0/[C3P0] 连接池库到 Hibernate
+hibernate-hikaricp:: 整合 http://brettwooldridge.github.io/HikariCP/[HikariCP] 连接池库到 Hibernate
+hibernate-vibur:: 整合 http://www.vibur.org/[Vibur DBCP] 连接池库到 Hibernate
+hibernate-proxool:: 整合 http://proxool.sourceforge.net/[Proxool] 连接池库到 Hibernate
+hibernate-jcache:: 整合 https://jcp.org/en/jsr/detail?id=107$$[JCache] 缓存特性到 Hibernate，使任何与其兼容的缓存实现能够成为 Hibernate 二级缓存的提供者
+hibernate-ehcache:: 整合 http://ehcache.org/[Ehcache] 缓存库到 Hibernate 中成为 Hibernate 的二级缓存提供者
 
 === Release Bundle Downloads
 
